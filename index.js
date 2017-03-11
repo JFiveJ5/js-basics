@@ -16,6 +16,28 @@ console.log(pet);
 * Each value should be a String. 
 **/
 
+var firstName = "Tien";
+console.log(firstName);
+var lastName = "Le";
+console.log(lastName);
+var birthPlace = "Hawaii";
+console.log(birthPlace);
+var favoriteFood = "Fried Chicken";
+console.log(favoriteFood);
+var bestMovie = "Forrest Gump";
+console.log(bestMovie);
+var favLoveSong = "Everytime I Close My Eyes";
+console.log(favLoveSong);
+var cuteAnimal = "Kitten";
+console.log(cuteAnimal);
+var favColor = "Red";
+console.log(favColor);
+var favSneaker = "Reebok";
+console.log(favSneaker);
+var coffeeShop = "Peet's Coffee & Tea";
+console.log(coffeeShop);
+
+
 
 /**
 * #2
@@ -25,7 +47,26 @@ console.log(pet);
 *
 * Each value should be a Number
 **/
-
+var favoriteNumber = "1";
+console.log(favoriteNumber);
+var currentYear = "2017";
+console.log(currentYear);
+var thatOnePrinceSong = "1999";
+console.log(thatOnePrinceSong);
+var tokyoOlympics = "2020";
+console.log(tokyoOlympics);
+var mariahCareyAge = "46";
+console.log(mariahCareyAge);
+var currentTemp = "69F"
+console.log(currentTemp);
+var studentsInClass = "8";
+console.log(studentsInClass);
+var numOfJapanPrefectures = "43";
+console.log(numOfJapanPrefectures);
+var currentIphoneModel = "7";
+console.log(currentIphoneModel);
+var shoeSize = "10.5";
+console.log(shoeSize);
 
 /**
 * #3
@@ -35,6 +76,27 @@ console.log(pet);
 *
 * Each value should be a Boolean
 **/
+
+var likesMcDonalds = true;
+console.log(likesMcDonalds);
+var watchedMrRobot = false;
+console.log(watchedMrRobot);
+var ranMarathon = false;
+console.log(ranMarathon);
+var wrestledABear = false;
+console.log(wrestledABear);
+var lovesDonuts = true;
+console.log(lovesDonuts);
+var readHarryPotter = false;
+console.log(readHarryPotter);
+var sleptInClass = false;
+console.log(sleptInClass);
+var drinksCoffee = false;
+console.log(drinksCoffee);
+var shopsAtWholeFoods = false;
+console.log(shopsAtWholeFoods);
+var ownsRedShoes = false;
+console.log(ownsRedShoes);
 
 
 /**
@@ -46,14 +108,22 @@ console.log(pet);
 * Each value should be Null 
 **/
 
+var completedPrepClass = null;
+console.log(completedPrepClass);
+var traveledToMars = null;
+console.log(traveledToMars);
+var scoredTDinNFL = null;
+console.log(scoredTDinNFL);
 
-/*
-#5. 
+/**
+* #5
 * What is the difference between null and undefined? Type your answer in two or three commented-out sentences.
 */
 
+ Null has a one single value that is true even though the variable may be empty, its telling you that it exists
+ Undefined has no variable nor value. It clearly means that theres is nothing set, assigned, or in other words that it doesnt exist
 
-/**
+/*/
 * #6
 * Variables with an Array value
 * 
@@ -63,11 +133,27 @@ console.log(pet);
 * Declare a variable named `lotteryResult and assign it an array containing 5 random numbers.
 * Declare a variable named `duets` and assign it an array containing 3 nested arrays, each containing the names of 2 singers or bands.
 * Declare a variable named `mixPlate` and assign it an array containing different data types of your choosing.
-**/
+*/
+
+var plateLunch = [garlic Chicken, short Ribs, Chimichanga , Beef Stew, Chopped Steak];
+console.log(plateLunch.length);
+var fruitBasket = [mangos, pineapple, bananas, oranges, grape];
+console.log(fruitBasket.length);
+var westCoast = [Washington, Oregon, California];
+console.log(westCoast.length);
+var lotteryResult = [1,9,12,19,27];
+console.log(lotteryResult.length);
+var duets = [[Nas, Lauren Hill],[Run DMC, Aerosmith],[Michael Jackson,Janet Jackson] ];
+console.log(duets.length)
+var mixPlate = [Chicken Katsu curry, roast pork, rice, mixed vegetables]
+console.log(mixPlate.length);
 
 
 
-/*7
+
+
+/*
+* #7
 * Accessing Values in Arrays
 
 var partyList = ["carrot cake", "rocky road ice cream", "mochiko chicken", "orange tang", "lemon bars"];
@@ -143,7 +229,11 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 
 * Write 5 different assignment statements and `console.log()` the value of the variable after each
 * assignment statement to show the current value. REMEMBER: an assignment is DIFFERENT from a declaration.
-*
+*/
+var myBox = 5;
+console.log(myBox);
+
+
 
 /**
 * Final Boss 
